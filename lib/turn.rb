@@ -61,3 +61,5 @@ else
     puts "Wrong move. Please pick the right move."
     input = gets.strip
     converted_input = input_to_index(input)
+  end
+end
