@@ -25,7 +25,28 @@ def position_taken?(board, index)
   return true
 end
 
+# code your input_to_index and move method here!
+def input_to_index(input)
 
+  begin
+    n = Integer(input)
+  rescue ArgumentError
+    return -1
+  end
+
+  if input.to_i == 0
+    return "0".to_i
+  end
+
+
+  return input.to_i - 1
+end
+
+def move(board, index, char = "X")
+  board[index] = char
+  display_board(board)
+  return board
+end
 
 board = Array.new(9, " ")
 display_board(board)
