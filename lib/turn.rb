@@ -68,6 +68,8 @@ def turn(board)
     input = gets.strip
     converted_input = input_to_index(input)
   end
+
+  move(board, converted_input)
 end
 
 board = Array.new(9, " ")
