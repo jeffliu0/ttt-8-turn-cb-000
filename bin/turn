@@ -6,8 +6,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 
 board = move(board, 4, "X")
-move(board, 0, "O")
-move(board, 1, "X")
+board = move(board, 0, "O")
+board = move(board, 1, "X")
 
 display_board(board)
 
