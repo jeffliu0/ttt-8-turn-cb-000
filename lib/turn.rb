@@ -52,7 +52,7 @@ board = Array.new(9, " ")
 display_board(board)
 
 def turn(board):
-  puts "Where would you like to make your move?"
+  puts "Please enter 1-9:?"
   input = gets.strip
   converted_input = input_to_index(input)
 
