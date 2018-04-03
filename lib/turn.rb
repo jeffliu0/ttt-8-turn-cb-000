@@ -49,9 +49,9 @@ def move(board, index, char = "X")
 end
 
 board = Array.new(9, " ")
-  display_board(board)
+display_board(board)
 
-  def turn(board):
+def turn(board):
   puts "Where would you like to make your move?"
   input = gets.strip
   converted_input = input_to_index(input)
@@ -65,3 +65,4 @@ board = Array.new(9, " ")
       converted_input = input_to_index(input)
     end
   end
+end
