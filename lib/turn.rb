@@ -51,3 +51,4 @@ end
 board = Array.new(9, " ")
 display_board(board)
 input = gets.strip
+converted_input = input_to_index(input)
