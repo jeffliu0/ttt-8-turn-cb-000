@@ -66,5 +66,4 @@ def turn(board)
       converted_input = input_to_index(input)
     end
   end
-
 end
