@@ -62,6 +62,11 @@ def turn(board)
       converted_input = input_to_index(input)
     end
   end
+
+  until valid_move?(converted_input == true do)
+    puts "Wrong move. Please pick the right move."
+    input = gets.strip
+    converted_input = input_to_index(input)
 end
 
 board = Array.new(9, " ")
