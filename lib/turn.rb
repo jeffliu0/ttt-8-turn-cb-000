@@ -48,10 +48,6 @@ def move(board, index, char = "X")
   return board
 end
 
-board = Array.new(9, " ")
-puts "Welcome to Tic Tac Toe!"
-display_board(board)
-
 def turn(board)
   puts "Please enter 1-9:?"
   input = gets.strip
@@ -67,3 +63,7 @@ def turn(board)
     end
   end
 end
+
+board = Array.new(9, " ")
+puts "Welcome to Tic Tac Toe!"
+display_board(board)
