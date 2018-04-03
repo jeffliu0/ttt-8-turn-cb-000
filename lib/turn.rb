@@ -54,3 +54,6 @@ input = gets.strip
 converted_input = input_to_index(input)
 
 if valid_move?(converted_input)
+  move(board, converted_input)
+else
+  while !valid_move?
