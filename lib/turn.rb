@@ -52,7 +52,7 @@ board = Array.new(9, " ")
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
 
-def turn(board):
+def turn(board)
   puts "Please enter 1-9:?"
   input = gets.strip
   converted_input = input_to_index(input)
